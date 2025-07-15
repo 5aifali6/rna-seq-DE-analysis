@@ -1,10 +1,10 @@
-# 🧬 RNA-Seq Differential Expression Analysis (GSE60424)
+# RNA-Seq Differential Expression Analysis (GSE60424)
 
 This project performs **differential gene expression analysis** using [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) in R on the publicly available **RNA-Seq dataset GSE60424**. The goal is to identify genes that are significantly upregulated or downregulated in **LPS-stimulated immune cells** compared to **control** conditions.
 
 ---
 
-## 📂 Dataset Overview
+## Dataset Overview
 
 **GSE60424** (from NCBI GEO):  
 > RNA-Seq profiling of human immune cell subsets across various immune-associated diseases and conditions.
@@ -18,7 +18,7 @@ This project performs **differential gene expression analysis** using [DESeq2](h
 
 ---
 
-## 🛠 Tools & Packages
+## Tools & Packages
 
 - **Language**: R
 - **Key Packages**:
@@ -29,13 +29,13 @@ This project performs **differential gene expression analysis** using [DESeq2](h
 
 ---
 
-## 📊 Results & Biological Interpretations
+## Results & Biological Interpretations
 
 All plots and DE result files are stored in the `results/` folder.
 
 ---
 
-### 🔬 Volcano Plot
+### Volcano Plot
 
 ![Volcano Plot](results/volcano_plot.png)
 
@@ -52,7 +52,7 @@ Use this plot to **identify key immune response genes or biomarkers** triggered 
 
 ---
 
-### 🧬 PCA Plot
+### PCA Plot
 
 ![PCA Plot](results/pca_plot.png)
 
@@ -66,7 +66,7 @@ The plot shows clear **group separation**, indicating that LPS stimulation leads
 
 ---
 
-### 🧪 Heatmap of Top 30 DEGs
+### Heatmap of Top 30 DEGs
 
 ![Heatmap](results/heatmap.png)
 
@@ -80,7 +80,7 @@ Clustering shows that **samples within the same group cluster together**, and ce
 
 ---
 
-## 🧪 How to Reproduce This Analysis
+## How to Reproduce This Analysis
 
 1. Clone the repository:
 
