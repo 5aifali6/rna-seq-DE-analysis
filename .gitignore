@@ -1,0 +1,34 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# User-specific files
+.Ruserdata
+
+# Example code files
+*.Rproj.user/
+
+# RStudio files
+*.Rproj
+.Rproj.user/
+
+# Output files
+*.html
+*.pdf
+
+# Temporary files
+*.tmp
+*.log
+
+# Data files
+.DS_Store
+*.csv
+*.tsv
+*.rds
+*.rda
+
+# Cache
+.cache/
