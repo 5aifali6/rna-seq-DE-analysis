@@ -25,10 +25,14 @@
 
 # Data files
 .DS_Store
-*.csv
 *.tsv
 *.rds
 *.rda
+
+# Allow specific CSV and plots in results/
+!results/deseq2_results.csv
+!results/*.png
+*.csv
 
 # Cache
 .cache/
