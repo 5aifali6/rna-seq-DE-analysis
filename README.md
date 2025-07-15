@@ -37,6 +37,15 @@ This project performs differential gene expression (DE) analysis using [DESeq2](
 **Volcano Plot**  
 ![Volcano Plot](results/volcano_plot.png)
 
+Interpretation:
+This volcano plot displays each gene’s differential expression (log2 Fold Change) versus its statistical significance (p-value).
+
+Genes on the far left/right are strongly down/up-regulated in LPS vs control.
+
+Genes above the horizontal threshold are significantly differentially expressed (DEGs).
+
+This helps prioritize genes for further validation or pathway analysis.
+
 **PCA Plot**  
 ![PCA Plot](results/pca_plot.png)
 
